@@ -318,6 +318,30 @@ In my free time, you can often see me outdoors exploring Nature, Designing, Read
             </div>
         </div>
 
+<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+    <video width="100%" height="100%" muted loop>
+      <source src="assets/img/vid1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="portfolio-links">
+      <a href="assets/img/vid1.mp4"><h4>Salary prediction- ML</h4></a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  function playVideo(element) {
+    var video = element.querySelector("video");
+    video.play();
+  }
+
+  function pauseVideo(element) {
+    var video = element.querySelector("video");
+    video.pause();
+  }
+</script>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/Screenshot (300).png" class="img-fluid" alt="">
@@ -328,6 +352,7 @@ In my free time, you can often see me outdoors exploring Nature, Designing, Read
             </div>
           </div>
 
+        
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/Screenshot (301).png" class="img-fluid" alt="">
@@ -337,31 +362,13 @@ In my free time, you can often see me outdoors exploring Nature, Designing, Read
               </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Screenshot (302).png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                
-                <a href="https://meghaanil.github.io/Mavelikkoru_Portfolio/"> <h4>Mavelikkoru portfolio</h4></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+            
+          </div>  
       </div>
 
        
     </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    
-
-           
-            
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
