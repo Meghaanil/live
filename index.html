@@ -306,6 +306,31 @@ In my free time, you can often see me outdoors exploring Nature, Designing, Read
                 </div>
             </div>
         </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+            <video width="50%" height="50%" muted loop>
+              <source src="assets/img/ImageCaptionAppDemo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="portfolio-links">
+              <a href="assets/img/ImageCaptionAppDemo.mp4"><h4>Flutter Image Caption Genrator</h4></a>
+            </div>
+          </div>
+        </div>
+        
+        
+        <script>
+          function playVideo(element) {
+            var video = element.querySelector("video");
+            video.play();
+          }
+        
+          function pauseVideo(element) {
+            var video = element.querySelector("video");
+            video.pause();
+          }
+        </script>
+
 
 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
   <div class="portfolio-wrap" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
